@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="css/estilos.css">
         <link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">        
         
         <link rel="stylesheet" type="text/css" href="fuentes/iconic/css/material-design-iconic-font.min.css">
 </head>
 <body>
-    <h1>index jairowebs</h1>
+  
      
-      <div class="container-login">
-        <div class="wrap-login">
+      <div class="container-login"><img src="imagenes/img-loguin.jpg" alt=""width="300" height="200">
+        <div class="wrap-login">  
             <form class="login-form validate-form" id="formLogin" action="" method="post">
                 <span class="login-form-title">LOGIN</span>
                 
