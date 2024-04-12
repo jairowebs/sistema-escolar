@@ -25,7 +25,9 @@
 }
 
 
-
+body{
+    
+}
 
 input {
 	outline: none;
@@ -45,20 +47,33 @@ button:hover {
 /*-- contenedor del Login--*/
 
 .container-login {
-  width: 100%;  
-  min-height: 100vh;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  
+    position: relative; /* Agregamos posición relativa al contenedor */
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+    /*background-image: url('imagenes/img-loguin.jpg');  Añadimos la imagen de fondo */
+    
 }
-body{
- background-image: url('');
 
+img{
+    border-radius: 20px;
+    justify-content: center;
+    
 }
+
+h1{
+    position: absolute;
+    justify-content: center;
+    color: white;
+   
+}
+
 
 .wrap-login {
   width: 400px;
