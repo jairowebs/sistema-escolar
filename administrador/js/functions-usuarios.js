@@ -1,18 +1,16 @@
 $("#tableusuarios").DataTable();
 
-document.addEventListener("DOMContentLoaded", function () {
-  tableusuarios =$("#tableusuarios").DataTable({
-      aProcessing: true,
-      aServerSide: true,
-      language: {
-       language: {
+document.addEventListener('DOMContentLoaded', function () {
+  tableusuarios =$('#tableusuarios').DataTable({
+      "aProcessing": true,
+      "aServerSide": true,
+      "language": {
     "url": "//cdn.datatables.net/plug-ins/1.10.20/i18n/Spanish.json"
-}
 
       },
       "ajax": {
        "url" : "./models/usuarios/table_usuarios.php",
-       "dataSrc" : "",
+       "dataSrc" : ""
       },
 
       "columns":[
