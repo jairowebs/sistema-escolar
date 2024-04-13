@@ -24,11 +24,6 @@
 	box-sizing: border-box;
 }
 
-
-body{
-    
-}
-
 input {
 	outline: none;
 	border: none;
@@ -81,8 +76,8 @@ h1{
   border-radius: 20px;
   overflow: hidden;
   padding: 77px 55px 53px 55px;
-  -webkit-box-shadow: 25px 40px 28px 0px rgba(0, 0, 0, 0.38);
- /* box-shadow: eje-x | eje-y | blur-radius | color */
+ /* -webkit-box-shadow: 25px 40px 28px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: eje-x | eje-y | blur-radius | color */
 }
 
 
@@ -96,9 +91,10 @@ h1{
   display: block;
   font-family: Poppins-Bold;
   font-size: 40px;
-  color: #333333;
+  color: #491169;
   line-height: 1.5;
   text-align: center;
+
 }
 
 
