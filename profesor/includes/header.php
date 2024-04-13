@@ -1,11 +1,3 @@
-<?php
-session_start();
-
-if (empty($_SESSION['active'])) {
-  header('Location: ./');
-
-} 
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

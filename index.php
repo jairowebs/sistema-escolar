@@ -1,3 +1,13 @@
+<?php
+session_start();
+if (!empty($_SESSION['active'])){
+  header('Location:administrador/');
+
+}else if (!empty($_SESSION['activeP'])) {
+  header('Location:profesor/');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -75,10 +85,11 @@
 
                 <div class="container-login-form-btn">
                   <div class="wrap-login-form-btn">
-                    <div class="login-form-bgbtn"></div>
+                    <div class="login-form-bgbtn"></div>    
+                       <div id="messageProfesor"></div>
                     <button id="LoginProfesor" type="button" name="submit" class="login-form-btn">Iniciar
                       Sesión</button>
-                    <div id="messageProfesor"></div>
+             
                   </div>
                 </div>
               </form>
