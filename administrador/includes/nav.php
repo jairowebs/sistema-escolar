@@ -11,6 +11,6 @@
        <li><a class="app-menu__item" href="lista_usuarios.php"><i class="bi bi-people-fill"></i>
        <span class="app-menu__label"> Usuarios</span></a></li>
        <li><a class="app-menu__item" href="../logout.php"><i class="bi bi-box-arrow-right"></i>
-       <span class="app-menu__label">logout</span></a></li>
+       <span class="app-menu__label">Salir</span></a></li>
       </ul>
     </aside>
