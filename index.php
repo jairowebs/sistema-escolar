@@ -20,81 +20,83 @@
 
   <div class="container-login ">
     <div class="row">
-      <div class=" col-6">
-
-
+         <div class=" col-6">
         <h1 class="text-sm text-white"> . [CODELOGY]</h1>
         <img src="imagenes/img-loguin.jpg" alt="" width="800px">
-
-
       </div>
       <div class="col-6">
-        <div class=" ">
-          <div class="wrap-login">
-            <form class="login-form validate-form" id="formLogin" action=""  onsubmit="return validar()">
-              <span class="login-form-title">¡Bienvenido!</span>
+        <div class="wrap-login">
 
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Administrador</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profesor</button>
-                </li>
+          <span class="login-form-title">¡Bienvenido!</span>
 
-              </ul>
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-                  tabindex="0">
-                  <div class="wrap-input100" data-validate="Usuario incorrecto">
-                    <input class="input100" type="text" id="usuario" name="usuario" placeholder="Usuario">
-                    <span class="focus-efecto"></span>
-                  </div>
+          <ul class="nav nav-tabs">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Administrador</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profesor</button>
+            </li>
 
-                  <div class="wrap-input100" data-validate="Password incorrecto">
-                    <input class="input100" type="password" id="pass" name="password" placeholder="Password">
-                    <span class="focus-efecto"></span>
-                  </div>
-
-                  <div class="container-login-form-btn">
-                    <div class="wrap-login-form-btn">
-                      <div class="login-form-bgbtn"></div>
-                      <button id="LoginUsuario" type="button" name="submit" class="login-form-btn">Iniciar Sesión</button>
-                      <div id="messageUsuario"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
-                  tabindex="0">
-                  <div class="wrap-input100" data-validate="Usuario incorrecto">
-                    <input class="input100" type="text" id="usuario" name="usuario" placeholder="Usuario">
-                    <span class="focus-efecto"></span>
-                  </div>
-
-                  <div class="wrap-input100" data-validate="Password incorrecto">
-                    <input class="input100" type="password" id="pass" name="password" placeholder="Password">
-                    <span class="focus-efecto"></span>
-                  </div>
-
-                  <div class="container-login-form-btn">
-                    <div class="wrap-login-form-btn">
-                      <div class="login-form-bgbtn"></div>
-                      <button id="LoginProfesor" type="button" name="submit" class="login-form-btn">Iniciar Sesión</button>
-                       <div id="messageProfesor"></div>
-                    </div>
-                  </div>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+              tabindex="0">
+              <form action="" onsubmit="return validar()">
+                <div class="wrap-input100">
+                  <input class="input100" type="text" id="usuario" name="usuario" placeholder="Usuario">
+                  <span class="focus-efecto"></span>
                 </div>
 
-              </div>
+                <div class="wrap-input100">
+                  <input class="input100" type="password" id="pass" name="password" placeholder="Password">
+                  <span class="focus-efecto"></span>
+                </div>
 
+                <div class="container-login-form-btn">
+                  <div class="wrap-login-form-btn">
+                    <div class="login-form-bgbtn"></div>
+                    <div id="messageUsuario"></div>
+                    <button id="LoginUsuario" type="button" name="submit" class="login-form-btn">Iniciar
+                      Sesión</button>
+                    
 
+                  </div>
+                </div>
+            </div>
             </form>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+              <form action="" onsubmit="return validar()">
+                <div class="wrap-input100">
+                  <input class="input100" type="text" id="usuario" name="usuario" placeholder="Usuario">
+                  <span class="focus-efecto"></span>
+                </div>
+
+                <div class="wrap-input100">
+                  <input class="input100" type="password" id="pass" name="password" placeholder="Password">
+                  <span class="focus-efecto"></span>
+                </div>
+
+                <div class="container-login-form-btn">
+                  <div class="wrap-login-form-btn">
+                    <div class="login-form-bgbtn"></div>
+                    <button id="LoginProfesor" type="button" name="submit" class="login-form-btn">Iniciar
+                      Sesión</button>
+                    <div id="messageProfesor"></div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
           </div>
+
+
+
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <script src="jquery/jquery-3.3.1.min.js"></script>

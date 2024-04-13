@@ -26,12 +26,13 @@ if (!empty($_POST)) {
                 echo '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert"></button>
          Redirecting</div>';
             } else {
-                echo '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert"></button>
+                echo '<div class="alert alert-dan"><button type="button" class="close" data-dismiss="alert"></button>
          usuario o clave incorrectos</div>';
             }
 
+
         } else {
-            echo '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert"></button>
+            echo '<div class="alert alert-dan"><button type="button" class="close" data-dismiss="alert"></button>
          usuario o clave incorrectos</div>';
         }
     }

@@ -27,12 +27,14 @@ function LoginUsuario() {
             $('#messageUsuario').html(data);
 
             if (data.indexOf('Redirecting') >= 0) {
-                window.location = 'administrador/';
+                window.location = 'administrador/.'
             }
         }
     })
 
 }
+
+
 
 
 function LoginProfesor() {
@@ -41,7 +43,7 @@ function LoginProfesor() {
     var pass = $('#pass').val();
 
     $.ajax({
-        url: './includes/loginProfesor.php',
+        url: './includes/LoginProfesor.php',
         method: 'POST',
         data: {
             login: login,
@@ -51,7 +53,7 @@ function LoginProfesor() {
             $('#messageProfesor').html(data);
 
             if (data.indexOf('Redirecting') >= 0) {
-                window.location = 'profesor/';
+                window.location = 'profesor/.'
             }
         }
     })
