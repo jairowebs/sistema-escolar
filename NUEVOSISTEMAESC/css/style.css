@@ -53,11 +53,6 @@
   transform: translateY(-9px);
 }
 
-.manos-grado {
-  max-width: 100%;
-  height: auto;
-  
-}
 
 
 .text-content {
@@ -99,37 +94,21 @@ justify-content: center;
 
 
 
-.lista{
-    display: flex;
-    text-align: center;
-    margin: 2px;
-    padding: 30px;
-    color: #2B2B40;
-    justify-content: space-between ;
-    align-items: center;
-    
-}
+
 .text-content i{
     font-size: 28px;
     color: #FDC734;
 
 }
-.manos-grado{
-    display: flex;
-      flex-direction: column;
-   padding: 50px 0px 0px 0px ;
-    width: 250px; ;
-    margin-inline: 1.5rem;
-   /* fin secion hero */
-}
+
 
 
 
 body {
      /* estilo body */
     background-size: auto;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
  /* estilo de carrusel*/
 .carousel-inner {
@@ -138,6 +117,14 @@ body {
     max-width: auto;
     height: auto;
 
+}
+h1{
+    justify-content: center;
+     color: #2B2B40;
+font-family: 'Cinzel', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 h2{
@@ -154,14 +141,7 @@ h5{
         font-family: 'Orbitron', sans-serif;
         font-family: 'Rajdhani', sans-serif;
 }
-p{
-    text-align: justify;
-    color: black;
-    font-family: 'Cinzel', serif;
-        font-family: 'Lobster', cursive;
-        font-family: 'Orbitron', sans-serif;
-        font-family: 'Rajdhani', sans-serif;
-}
+
  .ventajas ul{
     font-family: 'Cinzel', serif;
         font-family: 'Lobster', cursive;
@@ -175,7 +155,7 @@ p{
 
 /* inicio de secion */
 .reseñahistorica {
-     background-image: url(imagenes/kerfin7_nea_2735.jpg) ;
+    background: linear-gradient(to right, #f2f2f2, #f1f1f4, #D0CAF8);
      background-repeat: no-repeat;
      background-size:cover;
      background-size: 100% auto;
@@ -206,20 +186,7 @@ p{
     margin: 5px;
 }
 /* inicio de secion */
-.input{
-    font-family: 'Cinzel', serif;
-        font-family: 'Lobster', cursive;
-        font-family: 'Orbitron', sans-serif;
-        font-family: 'Rajdhani', sans-serif;
-    padding: 0px 10px;
-    margin: 0px;
-    outline: none;
-    border: none;
-    color: black;
-    border-bottom:solid 1px black;
-     background-color: transparent;
-}
-    
+
 
 /* fin de secion */
 
@@ -716,13 +683,13 @@ footer {
 
   /* Estilos botones animados*/  
 
-button {
+.buton {
     font-family: 'Cinzel', serif;
         font-family: 'Lobster', cursive;
         font-family: 'Orbitron', sans-serif;
         font-family: 'Rajdhani', sans-serif;
     position: relative;
-    background: #50505031;
+    background: #505050;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -733,7 +700,7 @@ button {
     transition: 0.2s;
 }
 
-button:hover {
+.buton:hover {
     letter-spacing: 0.2rem;
     padding: 0.7rem 1.7rem;
     background: var(--clr);
@@ -741,7 +708,7 @@ button:hover {
     animation: box 3s infinite;
 }
 
-button::before {
+.buton::before {
     
     content: "";
     position: absolute;
@@ -749,18 +716,18 @@ button::before {
     background: #86839e;
 }
 
-button span {
+.buton span {
     position: relative;
     z-index: 1;
 }
 
-button i {
+.buton i {
     position: absolute;
     inset: 0;
     display: block;
 }
 
-button i::before {
+.buton i::before {
     content: "";
     position: absolute;
     width: 10px;
@@ -772,13 +739,13 @@ button i::before {
     transition: 0.2s;
 }
 
-button:hover i::before {
+.buton:hover i::before {
     width: 15px;
     left: 20%;
     animation: move 3s infinite;
 }
 
-button i::after {
+.buton i::after {
     content: "";
     position: absolute;
     width: 10px;
@@ -790,7 +757,7 @@ button i::after {
     transition: 0.2s;
 }
 
-button:hover i::after {
+.buton:hover i::after {
     width: 15px;
     left: 80%;
     animation: move 3s infinite;
@@ -858,4 +825,12 @@ button:hover i::after {
         padding: 12px;
         font-size: 23px;
         
-    }      
+    } 
+    #contact{
+    background: linear-gradient(to right, #f2f2f27e, #D0CAF8, #D0CAF8);
+    box-shadow: 0 10px 14px rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    padding: 50px;
+    margin: 10px 40px;
+    }     
