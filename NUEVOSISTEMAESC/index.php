@@ -18,7 +18,9 @@ if ($setting != 0) {
 		<link rel="icon" href="logo.png">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	</head>
-	<nav class="navbar navbar-expand-md bg-white fixed-top">
+	
+
+	<body class="body-home"><nav class="navbar navbar-expand-md bg-white fixed-top">
 		<div class="container-fluid ">
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
 				aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,8 +43,6 @@ if ($setting != 0) {
 			</div>
 		</div>
 	</nav><br><br>
-
-	<body class="body-home">
 		<div class="black-fill"><br /> <br />
 			<div class="container">
 				<nav class="navbar navbar-expand-lg bg-light" id="homeNav">
