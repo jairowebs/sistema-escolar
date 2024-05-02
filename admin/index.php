@@ -25,35 +25,35 @@ if (isset($_SESSION['admin_id']) &&
          <div class="container text-center">
              <div class="row row-cols-5">
                <a href="teacher.php" 
-                  class="col btn btn-dark m-2 py-3">
+                  class="col btn  m-2 py-3"style="background-color: #FDC734;">
                  <i class="fa fa-user-md fs-1" aria-hidden="true"></i><br>
                   Profesores
                </a> 
-               <a href="student.php" class="col btn btn-dark m-2 py-3">
+               <a href="student.php" class="col btn  m-2 py-3" style="background-color: #FDC734;">
                  <i class="fa fa-graduation-cap fs-1" aria-hidden="true"></i><br>
                   Estudiantes
                </a> 
-               <a href="registrar-office.php" class="col btn btn-dark m-2 py-3">
+               <a href="registrar-office.php" class="col btn  m-2 py-3" style="background-color: #FDC734;">
                  <i class="fa fa-pencil-square fs-1" aria-hidden="true"></i><br>
                   Registar Administrativo
                </a> 
-               <a href="class.php" class="col btn btn-dark m-2 py-3">
+               <a href="class.php" class="col btn  m-2 py-3"style="background-color: #FDC734;">
                  <i class="fa fa-cubes fs-1" aria-hidden="true"></i><br>
                   Clase
                </a> 
-               <a href="section.php" class="col btn btn-dark m-2 py-3">
+               <a href="section.php" class="col btn  m-2 py-3"style="background-color: #FDC734;">
                  <i class="fa fa-columns fs-1" aria-hidden="true"></i><br>
                   Sección
                </a> 
-               <a href="grade.php" class="col btn btn-dark m-2 py-3">
+               <a href="grade.php" class="col btn  m-2 py-3"style="background-color: #FDC734;">
                  <i class="fa fa-level-up fs-1" aria-hidden="true"></i><br>
                   Grado
                </a> 
-               <a href="course.php" class="col btn btn-dark m-2 py-3">
+               <a href="course.php" class="col btn  m-2 py-3"style="background-color: #FDC734;">
                  <i class="fa fa-book fs-1" aria-hidden="true"></i><br>
                   Curso
                </a> 
-               <a href="message.php" class="col btn btn-dark m-2 py-3">
+               <a href="message.php" class="col btn  m-2 py-3"style="background-color: #FDC734;">
                  <i class="fa fa-envelope fs-1" aria-hidden="true"></i><br>
                   Mensaje
                </a> 
@@ -61,7 +61,7 @@ if (isset($_SESSION['admin_id']) &&
                  <i class="fa fa-cogs fs-1" aria-hidden="true"></i><br>
                   Configuracion
                </a> 
-               <a href="../logout.php" class="col btn btn-warning m-2 py-3 col-5">
+               <a href="../logout.php" class="col btn btn-danger m-2 py-3 col-5">
                  <i class="fa fa-sign-out fs-1" aria-hidden="true"></i><br>
                   Cerrar Sesión
                </a> 
