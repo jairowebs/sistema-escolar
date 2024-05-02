@@ -16,7 +16,7 @@ if ($setting != 0) {
 		<title>Welcome to <?= $setting['school_name'] ?></title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="icon" href="logo.png">
+		<link rel="icon" href="logoc.png">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	</head>
 

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-	<link rel="icon" href="logo.png">
+	<link rel="icon" href="logoc.png">
 </head>
 
 <br /><br />
@@ -25,7 +25,7 @@
 			<div class="col-12 col-md-7 mb-4">
 				<div class="ventajas">
 					<div class="">
-						<img src="logo.png" width="180px">
+						<img src="logoc.png" width="180px">
 					</div>
 					<ul>✅ Acceso personalizado a recursos educativos</ul>
 					<ul>✅ Participa en eventos exclusivos para miembros</ul>
